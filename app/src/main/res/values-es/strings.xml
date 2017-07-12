@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App Name -->
+    <string name="app_name">2048 Puzzle</string>
+
+    <!-- TRANSLATE ___________________________________________________________________________________________ -->
+
+
+    <!-- Game Play -->
+    <string name="Title">2048 Puzzle</string>
+    <string name="Subtitle">Obtener azulejo en 2048!</string>
+    <string name="Menu">MENÚ</string>
+    <string name="Restart">REINICIO</string>
+    <string name="Score">META</string>
+    <string name="Best">MEJOR</string>
+    <string name="Time">TIEMPO</string>
+
+    <!-- RESTART MENU -->
+    <string name="Restart_question">reanudar?</string>
+    <string name="Yes">SÍ</string>
+    <string name="No">NO</string>
+
+    <!-- GAME OVER MENU -->
+    <string name="game_over">JUEGO COMPLETO</string>
+    <string name="Win">2048!!</string>
+    <string name="Restart_gameover">Reanudar</string>
+    <string name="Share">Compartir</string>
+
+    <!-- MAIN MENU -->
+    <string name="Main_Menu">MENÚ</string>
+    <string name="Leaderboard">La tabla de posiciones</string>
+    <string name="Rate">La tasa de aplicación</string>
+    <string name="How_To_Play">Como jugar ?</string>
+    <string name="Share_menu">Compartir</string>
+    <string name="Exit">SALIDA</string>
+
+    <!-- INSTRUCTIONS -->
+    <string name="HowToPlay">COMO JUGAR</string>
+    <string name="help">Deslizar a mover y unirse a los mapas correspondientes. Obtener 2048 para ganar!</string>
+
+    <!-- Primary Colors -->
+    <color name="black">#4b4b3f</color>
+    <color name="red">#e5e500</color>
+    <color name="trans_white">#b9b393</color>
+    <color name="trans_white_background">#e7e5db</color>
+    <color name="brown">#ffffb2</color>
+    <color name="background_color">#a29a6f</color>
+
+    <!-- GAMEPLAY VARIABLES ___________________________________________________________________________________________ -->
+
+    <integer name="Board_width">4</integer>
+
+    <!-- CARDS -->
+    <!-- input card name or image name from drawable folder -->
+  
+    <string-array name="Card_text_or_image_name">
+        <item>2</item>
+        <item>4</item>
+        <item>8</item>
+        <item>16</item>
+        <item>32</item>
+        <item>64</item>
+        <item>128</item>
+        <item>256</item>
+        <item>512</item>
+        <item>1024</item>
+        <item>2048</item>
+    </string-array>
+
+    <!-- Card type: 0: text, 1: image -->
+    <integer-array name="Card_type">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </integer-array>
+
+    <!-- Card color: enter a color for each card -->
+    <array name="Card_color">
+        <item>#ffE3E3D5</item>
+        <item>#E4F1FE</item>
+        <item>#C5EFF7</item>
+
+        <item>#52B3D9</item>
+        <item>#81CFE0</item>
+        <item>#59ABE3</item>
+        <item>#4183D7</item>
+        <item>#336E7B</item>
+        <item>#3498DB</item>
+        <item>#22A7F0</item>
+        <item>#1E8BC3</item>
+        <item>#3A539B</item>
+    </array>
+    <!--<array name="Card_color">
+        <item>#a9a5a6</item>
+        <item>#9d9899</item>
+        <item>#908b8c</item>
+        <item>#847e7f</item>
+        <item>#6a6566</item>
+        <item>#5d5959</item>
+        <item>#696465</item>
+        <item>#4f4b4c</item>
+        <item>#dad8d8</item>
+        <item>#e6e5e5</item>
+        <item>#f2f2f2</item>
+    </array>-->
+    
+
+    <!-- ADVERTISING VARIABLES ___________________________________________________________________________________________ -->
+
+
+    <!-- Insert Id admob -->
+     <string name="BannerAd_unit_id">ca-app-pub-4398691256924309/8574098275</string>
+    <string name="InterstitialAd_unit_id">ca-app-pub-3290494362096911/2559003188</string>
+    
+    
+    
+    
+    
+    
+
+    <integer name="ad_shows_every_X_gameovers">2</integer>
+    
+
+    <!-- Rate button settings__________________________________________________________________________________________________ -->
+    <!-- link is created automatically from package. Make sure package id is the same as the one used in google play -->
+    <string name="unable_to_reach_market">Error alcanzando mercado. Por favor, compruebe su conexión a Internet</string>
+
+</resources>

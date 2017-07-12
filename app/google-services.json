@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "965780037659",
+    "firebase_url": "https://mypuzzle-8bb1e.firebaseio.com",
+    "project_id": "mypuzzle-8bb1e",
+    "storage_bucket": "mypuzzle-8bb1e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:965780037659:android:abd1e79a4906dc03",
+        "android_client_info": {
+          "package_name": "com.stanly.puzzle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "965780037659-ap9vepcv32arrrb0mfcnak29ih6brfkj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgWINeY4gTTPR7sI5ZMUJ1vaeWfoDYU5I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
